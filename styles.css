@@ -18,3 +18,66 @@
 .figure-gallery a:last-child{grid-column:1/-1}
 .figure-gallery a:last-child img{height:144px}
 @media(max-width:500px){.figure-gallery{grid-template-columns:1fr}.figure-gallery a:last-child{grid-column:auto}.figure-gallery img{height:auto;max-height:230px}}
+
+
+/* Readability update: roomier academic layout and larger, high-contrast type */
+body {font-size:17px;line-height:1.75}
+:root {--text:#405765;--muted:#627785}
+.sidebar {width:375px}
+.sidebar-inner {max-width:293px;padding-top:32px;padding-bottom:32px}
+.main-content {margin-left:375px;max-width:1450px}
+.profile-portrait {width:190px;height:190px;margin-top:29px}
+.sidebar h1 {font-size:42px}
+.sidebar-role {font-size:14px}
+.sidebar-location {font-size:13px}
+.sidebar-nav a {font-size:12px;padding:7px 0;gap:15px}
+.sidebar-nav a span {font-size:15px}
+.brand-sub {font-size:10px}
+.cv-btn {font-size:14px;padding:13px 16px}
+.side-social a {width:35px;height:35px;font-size:15px}
+.section {padding:78px min(7%,95px)}
+.hero {padding-top:105px}
+.intro {font-size:20px;line-height:1.7}
+.body-copy {font-size:17px;line-height:1.8}
+.eyebrow,.section-count,.small-label {font-size:12px;letter-spacing:1.5px}
+.section-heading p {font-size:16px}
+.section-heading h2 {font-size:clamp(37px,3.6vw,54px)}
+.research-card {min-height:0;padding:28px}
+.research-card h3 {font-size:19px}
+.research-card p {font-size:15px;line-height:1.7}
+.research-icon {font-size:30px;margin-bottom:10px}
+.project h3 {font-size:24px}
+.project p {font-size:16px;line-height:1.75}
+.project-meta {font-size:12px}
+.project-body {padding:32px}
+.tags span,.edu-pills span {font-size:12px;padding:6px 11px}
+.figure-gallery img {height:145px}
+.figure-gallery span {font-size:14px}
+.figure-gallery a:last-child img {height:185px}
+.subsection-note strong {font-size:16px}
+.subsection-note p {font-size:15px}
+.timeline-item {grid-template-columns:145px 1fr;padding:26px 0}
+.date {font-size:12px}
+.timeline-item h3 {font-size:19px}
+.timeline-item h4 {font-size:15px}
+.timeline-item p {font-size:15px;line-height:1.75}
+.edu-top>span {font-size:12px}
+.edu-card h3 {font-size:22px}
+.edu-card p,.skills-wrap p {font-size:15px}
+.skills-wrap h3 {font-size:17px}
+.award-list h3,.leadership h3 {font-size:17px}
+.award-list p,.leadership p {font-size:15px}
+.award-list>div>span:last-child,.tiny-date {font-size:12px}
+.contact-section>p {font-size:18px}
+.contact-buttons a,.primary-link,.text-link {font-size:15px}
+.contact-section footer {font-size:12px}
+.stat-grid small {font-size:11px}
+.upcoming-card {border:1px solid var(--line);background:#fafcfd;padding:34px 36px}
+.upcoming-label {color:#397a8f;font-size:12px;font-weight:700;letter-spacing:1.2px}
+.upcoming-card h3 {font-size:23px;line-height:1.4;margin:14px 0 12px}
+.upcoming-card p {font-size:16px;line-height:1.8;color:var(--text);max-width:720px;margin:0}
+.upcoming-footer {margin-top:25px;padding-top:15px;border-top:1px solid var(--line);display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;color:#5a7687;font-size:13px}
+@media(min-width:1500px) {.sidebar {width:410px}.main-content {margin-left:410px}.sidebar-inner {max-width:316px}}
+@media(max-width:1100px) {.sidebar {width:305px}.sidebar-inner {max-width:242px}.main-content {margin-left:305px}.profile-portrait {width:160px;height:160px}.sidebar h1 {font-size:36px}.section {padding:65px 6%}}
+@media(max-width:750px) {.sidebar {position:relative;width:100%}.sidebar-inner {max-width:none;padding:20px 24px;grid-template-columns:118px 1fr}.main-content {margin-left:0}.profile-portrait {width:114px;height:114px;margin:0}.sidebar h1 {font-size:32px}.sidebar-role {font-size:13px}.sidebar-location {font-size:12px}.sidebar-nav a span {font-size:14px}.section {padding:60px 6%}.intro {font-size:18px}.research-grid {grid-template-columns:1fr 1fr}.research-card {padding:22px}}
+@media(max-width:500px) {.section {padding:52px 22px}.research-grid {grid-template-columns:1fr}.profile-portrait {width:108px;height:108px}.sidebar-inner {grid-template-columns:110px 1fr}.hero h2 {font-size:42px}.project h3 {font-size:21px}.project-body {padding:22px}.timeline-item {grid-template-columns:1fr}.figure-gallery {grid-template-columns:1fr}.figure-gallery img,.figure-gallery a:last-child img {height:auto;max-height:240px}.upcoming-card {padding:24px}.upcoming-card h3 {font-size:20px}.upcoming-card p {font-size:15px}.stat-grid small {font-size:10px}}
